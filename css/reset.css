@@ -1,0 +1,77 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    word-break:keep-all;
+}
+
+html, body {
+    -webkit-text-size-adjust:none;
+    text-size-adjust:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+ul {
+    list-style:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    background:transparent;
+    text-decoration:none;
+    color:inherit;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+input, select, button {
+    appearance:none;
+    border:0;
+    border-radius:0;
+    outline:0;
+    vertical-align:middle;
+    
+}
+
+img, video{
+    max-width:100%;
+    vertical-align:middle;
+}
+
+a, span, i, strong {
+    display:inline-block;
+    font-style:normal;
+}
+
+
+.cl::before{content:""; display:block;}
+.cl::after{content:""; display:block; clear:both}
+.blind{width:0; height:0; line-height:0; overflow:hidden; display:block; position:absolute;}
